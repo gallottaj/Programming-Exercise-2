@@ -5,9 +5,7 @@ public class CalculateSum {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int number = input.nextInt();
-		
-		System.out.print("Sum of the digits of " + number + " is: " + getSum(number));
-	}
+		System.out.print("Enter a number:");}	
 	
 	public static int getSum(int number) {
 		int sum = 0;

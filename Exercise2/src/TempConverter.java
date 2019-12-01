@@ -5,5 +5,7 @@ public class TempConverter {
 		Scanner input = new Scanner(System.in);
 		System.out.print("Enter a Fahrenheit temperature: ");
 		int fahrenheit = input.nextInt();
+		int convert_to_celcius = ((fahrenheit - 32) * 5 / 9);
+		System.out.print(fahrenheit + "F" + " " + "is equivilent to" + " " + convert_to_celcius + "C");
 	}
 }

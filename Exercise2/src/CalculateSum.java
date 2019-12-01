@@ -6,7 +6,7 @@ public class CalculateSum {
 		Scanner input = new Scanner(System.in);
 		int number = input.nextInt();
 		
-		System.out.print("enter a number");
+		System.out.print("Sum of the digits of " + number + " is: " + getSum(number));
 	}
 	
 	public static int getSum(int number) {
